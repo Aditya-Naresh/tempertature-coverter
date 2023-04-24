@@ -1,0 +1,79 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container {
+    background-color: rgb(192, 127, 104);
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.toggle{
+    padding: auto;
+    padding-top: 20px;
+    align-self: center;
+}
+
+.CToF{
+    align-self: center;
+}
+
+.FToC{
+    align-self: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: underline;
+}
+
+button{
+    height: 2rem;
+}
+
+.toggle-btn{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+.toggle-btn:hover{
+    background-color: rgb(197, 184, 167);
+}
+
+footer{
+    height: 10%;
+    font-size: 22px;
+    color: aliceblue;
+    background-color: black;
+}
+
+span{
+    font-size: 20px;
+}
+
+header{
+    margin: 0;
+    height: 20%;
+    font-size: 22px;
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-size: 18px;
+}
+
+.input{
+    height: 2rem;
+    font-size: 18px;
+    width: 3rem;
+    margin-left: 4rem;
+}
